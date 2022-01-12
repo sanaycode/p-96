@@ -1,0 +1,37 @@
+body{
+    background: rgb(0,212,255);
+    background: linear-gradient(105deg, rgba(0,212,255,1) 0%, rgba(106,9,121,1) 35%, rgba(255,0,71,1) 100%);
+          
+}
+#logo{
+    border-radius: 500px;
+    height: 80px;
+    width:100px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+#tree{
+    padding: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    width:30%;
+    background: rgba(255,255,255,0.7);border-radius: 15px;
+}
+#log{
+    font-family: 'Indie Flower', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+#user_name{
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+#login_button{
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}

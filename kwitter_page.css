@@ -1,0 +1,19 @@
+#market{
+    height:20px;
+    width:20px;
+}
+#ugh{
+    color:white;
+    font-family: 'Indie Flower', cursive;
+    font-size:60px;
+    font-weight:bold;
+    text-decoration:underline;
+}
+#logo{
+    height:80px;
+    width:80px;
+    border-radius:80px;
+}
+body{
+    background-color: dodgerblue;
+}

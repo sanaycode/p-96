@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        <title>Kwitter Page</title>
+        <link rel="shortcut icon" type="image/x-icon" href="logo (3).ico"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="kwitter_room.js"></script>
+        <link rel="stylesheet" href="kwitter_room.css">
+    </head>
+    <body onload="name(user_name)">
+        <button id="logout_btn" onclick="logOut()" class="btn btn-danger">Log Out<img id="market"src="lomeout.png"></button>
+        <center>
+            <h1 id="ugh">Kwitter</h1>
+            <img id="logo" src="logo.png">
+            <h3 style="color: white;">Hello, <span id="name" style="color: white;"></span></h3>
+            <br>
+            <br>
+            <input id="room_name" class="form-control" placeholder="room name">
+            <br>
+            <br>
+            <button id="create_room_button" onclick="addRow()" class="btn btn-danger">Create Room</button>
+            <br>
+            <br>
+            <br>
+            <div id="output" style="color:white;"></div>
+        </center>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+#logout_btn{
+    height: 70px;
+    width: 200px;
+    margin:10px;
+    border-radius:10px;
+}
+#market{
+    height:20px;
+    width:20px;
+}
+body{
+    background-color: rgba(83, 136, 224, 0.8);
+}
+#ugh{
+    color:white;
+    font-family: 'Indie Flower', cursive;
+    font-size:60px;
+    font-weight:bold;
+    text-decoration:underline;
+}
+#logo{
+    height:80px;
+    width:80px;
+    border-radius:80px;
+}
+#room_name{
+    width:250px;
+}
+#rooms{
+    background: rgba(221, 11, 116, 0.397);
+    border-radius: 15px;
+    width:400px;
+}
